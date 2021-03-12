@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ImVeryBored.exe</string>
+    <string name="AutoClick10">Авто. клик всеки 10 сек.</string>
+    <string name="AutoClick2">Авто. клик всеки 2 сек.</string>
+    <string name="AutoClick0.5">Авто. клик всеки 0.5 сек.</string>
+    <string name="Click">клик +1</string>
+    <string name="Highest">Най-висок:</string>
+    <string name="LogIn">Влизане като гост</string>
+    <string name="SignIn">Вписване</string>
+    <string name="Register">Регистрация</string>
+    <string name="Username">Потребителско име</string>
+    <string name="Password">Парола</string>
+    <string name="GoBack">Върни се назад</string>
+    <string name="Email">Имейл</string>
+    <string name="Restart">РЕСТАРТ:</string>
+    <string name="Best">Най-добър:</string>
+    <string name="Play">Играй</string>
+    <string name="TimeTrial">Времево изпитание</string>
+    <string name="LeaderBoards">Класации</string>
+    <string name="LogOff">Отписване</string>
+    <string name="Quit">Излизане</string>
+    <string name="Zero">0</string>
+    <string name="Settings">: Настройки</string>
+</resources>

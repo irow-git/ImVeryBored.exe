@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_host"
+    app:startDestination="@id/gameFragment">
+
+    <fragment
+        android:id="@+id/homeScreenFragment"
+        android:name="com.fmi.examples.projectfinalexam.HomeScreenFragment"
+        android:label="fragment_home_screen"
+        tools:layout="@layout/fragment_home_screen" >
+        <action
+            android:id="@+id/action_homeScreenFragment_to_registrationFragment"
+            app:destination="@id/registrationFragment" />
+        <action
+            android:id="@+id/action_homeScreenFragment_to_gameFragment"
+            app:destination="@id/gameFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/registrationFragment"
+        android:name="com.fmi.examples.projectfinalexam.RegistrationFragment"
+        android:label="fragment_registration"
+        tools:layout="@layout/fragment_registration" >
+        <action
+            android:id="@+id/action_registrationFragment_to_homeScreenFragment"
+            app:destination="@id/homeScreenFragment" />
+        <action
+            android:id="@+id/action_registrationFragment_to_registrationFragment2"
+            app:destination="@id/registrationFragment2" />
+        <action
+            android:id="@+id/action_registrationFragment_to_gameFragment"
+            app:destination="@id/gameFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/gameFragment"
+        android:name="com.fmi.examples.projectfinalexam.GameFragment"
+        android:label="fragment_game"
+        tools:layout="@layout/fragment_game" >
+        <action
+            android:id="@+id/action_gameFragment_to_homeScreenFragment"
+            app:destination="@id/homeScreenFragment" />
+        <argument
+            android:name="userBool"
+            app:argType="boolean"
+            android:defaultValue="false" />
+        <argument
+            android:name="userString"
+            app:argType="string"
+            android:defaultValue="null" />
+        <action
+            android:id="@+id/action_gameFragment_to_leaderBoardFragment"
+            app:destination="@id/leaderBoardFragment" />
+        <action
+            android:id="@+id/action_gameFragment_to_mainGame"
+            app:destination="@id/mainGame" />
+        <action
+            android:id="@+id/action_gameFragment_to_timeTrial"
+            app:destination="@id/timeTrial" />
+        <action
+            android:id="@+id/action_gameFragment_to_account"
+            app:destination="@id/account" />
+    </fragment>
+    <fragment
+        android:id="@+id/registrationFragment2"
+        android:name="com.fmi.examples.projectfinalexam.registrationFragment2"
+        android:label="fragment_registration2"
+        tools:layout="@layout/fragment_registration2" >
+        <action
+            android:id="@+id/action_registrationFragment2_to_registrationFragment"
+            app:destination="@id/registrationFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/leaderBoardFragment"
+        android:name="com.fmi.examples.projectfinalexam.LeaderBoardFragment"
+        android:label="fragment_leader_board"
+        tools:layout="@layout/fragment_leader_board" />
+    <fragment
+        android:id="@+id/mainGame"
+        android:name="com.fmi.examples.projectfinalexam.MainGame"
+        android:label="fragment_main_game"
+        tools:layout="@layout/fragment_main_game" >
+        <action
+            android:id="@+id/action_mainGame_to_gameFragment"
+            app:destination="@id/gameFragment" />
+        <argument
+            android:name="userStringMG"
+            app:argType="string"
+            android:defaultValue="null" />
+        <argument
+            android:name="userBoolMG"
+            app:argType="boolean"
+            android:defaultValue="false" />
+    </fragment>
+    <fragment
+        android:id="@+id/timeTrial"
+        android:name="com.fmi.examples.projectfinalexam.TimeTrial"
+        android:label="fragment_time_trial"
+        tools:layout="@layout/fragment_time_trial" >
+        <action
+            android:id="@+id/action_timeTrial_to_gameFragment"
+            app:destination="@id/gameFragment" />
+        <argument
+            android:name="userStringTT"
+            app:argType="string"
+            android:defaultValue="null" />
+        <argument
+            android:name="userBoolTT"
+            app:argType="boolean"
+            android:defaultValue="false" />
+    </fragment>
+    <fragment
+        android:id="@+id/account"
+        android:name="com.fmi.examples.projectfinalexam.Account"
+        android:label="fragment_account"
+        tools:layout="@layout/fragment_account" >
+        <argument
+            android:name="userStringA"
+            app:argType="string"
+            android:defaultValue="null" />
+    </fragment>
+</navigation>

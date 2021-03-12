@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_anchorGravity="center_horizontal"
+    android:orientation="horizontal"
+    android:baselineAligned="false"
+    tools:context=".HomeScreenFragment">
+
+    <RelativeLayout
+        android:layout_weight="0.5"
+        android:paddingStart="0dp"
+        android:paddingEnd="1dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/guestBtn"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/custom_button1"
+            android:gravity="center"
+            android:textSize="25sp"
+            android:paddingStart="30dp"
+            android:paddingEnd="30dp"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            android:text="@string/LogIn" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_weight="0.5"
+        android:paddingStart="1dp"
+        android:paddingEnd="0dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/regBtn"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/custom_button2"
+            android:text="@string/SignIn"
+            android:textAllCaps="false"
+            android:textColor="#000000"
+            android:textSize="25sp" />
+    </RelativeLayout>
+
+</LinearLayout>

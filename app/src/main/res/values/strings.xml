@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">ImVeryBored.exe</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+    <string name="AutoClick10">Auto-click every 10 sec.</string>
+    <string name="AutoClick2">Auto-click every 2 sec.</string>
+    <string name="AutoClick0.5">Auto-click every 0.5 sec.</string>
+    <string name="Click">click +1</string>
+    <string name="Zero">0</string>
+    <string name="Ten" translatable="false">10</string>
+    <string name="Forty" translatable="false">40</string>
+    <string name="Hundred" translatable="false">100</string>
+    <string name="Highest">Highest:</string>
+    <string name="LogIn">Log in as guest</string>
+    <string name="SignIn">Sign In</string>
+    <string name="ImVeryBored" translatable="false">ImVeryBored.exe</string>
+    <string name="Register">Register</string>
+    <string name="Username">Username</string>
+    <string name="Password">Password</string>
+    <string name="GoBack">Go Back</string>
+    <string name="Email">Email</string>
+    <string name="Restart">RESTART:</string>
+    <string name="CPM" translatable="false">CPM:</string>
+    <string name="Sixty" translatable="false">60</string>
+    <string name="Best">Best:</string>
+    <string name="Play">Play</string>
+    <string name="TimeTrial">Time Trial</string>
+    <string name="Account" translatable="false">Account</string>
+    <string name="LeaderBoards">Leader Boards</string>
+    <string name="LogOff">Log Off</string>
+    <string name="Quit">Quit</string>
+    <string name="Settings">: Settings</string>
+</resources>
